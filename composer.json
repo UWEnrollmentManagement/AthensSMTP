@@ -1,0 +1,25 @@
+{
+  "name": "UWEnrollmentManagement/AthensSMTP",
+  "description": "SMTP email sending wrapper for the Athens framework.",
+  "license": "None",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "test/"
+    ]
+  },
+  "require": {
+    "propel/propel": "~2.0@dev",
+    "athens/core": "0.*"
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "2.7.*",
+    "phpunit/phpunit": "4.5.*",
+    "codeclimate/php-test-reporter": "dev-master",
+    "athens/standard": "*"
+  }
+}
